@@ -7,6 +7,7 @@ export default {
       name: "chapterNumber",
       title: "Chapter Number",
       type: "number",
+      validation: (Rule) => Rule.required(),
     },
   ],
 };
